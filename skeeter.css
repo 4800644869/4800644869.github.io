@@ -1,0 +1,168 @@
+body{
+    background-color: #202020;
+    color: #ABABAB;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #9C1E03;
+    color: #170700;
+    background-image: url(bricks3.jpg);
+    background-position: center;
+    line-height: 400%;
+    text-indent: 1em;
+    font-size: 120%;
+}
+
+#wrapper{
+    background-color: #170700;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    border: 1px solid #170700;
+    background-image: linear-gradient(to bottom, #170700, #9C1E03);
+}
+
+nav{
+    padding: 1.2em;
+    font-size: 100%;
+    font-weight: bold;
+    float: left;
+    width: 160px;
+    line-height: 170%;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+nav a:link{
+    color: #DE4C05
+}
+
+nav a:visited{
+    color: #642d11;
+}
+
+nav a:hover{
+    color: #ABABAB;
+    transition: 2s linear;
+}
+
+
+main{
+    background-color: #170700;
+    padding: 1px 20px 20px 30px;
+    display: block;
+    margin-left: 190px;
+    overflow: auto;
+}
+
+h1{
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: #1CC78B;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+ul{
+    color: #1CC78B;
+    list-style: square;
+}
+
+#location{
+    padding-top: 2%;
+}
+
+#photos{
+    padding-top: 25px;
+}
+
+footer{
+    font-size: 85%;
+    font-style: italic;
+    text-align: center;
+    font-family: Verdana, Helvetica, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer a{
+    color: #170700;
+}
+
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    padding: 10px;
+}
+
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea{
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    margin-left: 145px;
+}
+
+
+#prices{
+    clear: both;
+}
+
+table{
+    border: 2px solid #c4e6cc;
+    border-collapse: collapse;
+
+}
+
+tr:nth-of-type(odd){
+    background-color: #1CC78B;
+    color: #170700;
+}
+
+tr:nth-of-type(even){
+    color: #DE4C05;
+}
+
+td{
+    padding: 0.5em;
+    border: 2px solid #c4e6cc;
+    text-align: center;
+}
+
+th{
+    padding: 0.5em;
+    border: 2px solid #c4e6cc;
+}
+
+.text{
+    text-align: left;
+}
